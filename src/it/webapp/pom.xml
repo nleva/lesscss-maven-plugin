@@ -8,7 +8,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.lesscss</groupId>
+                <groupId>ru.send-to.less</groupId>
                 <artifactId>lesscss-maven-plugin</artifactId>
                 <version>@project.version@</version>
                 <configuration>
