@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lesscss</groupId>
+    <groupId>ru.send-to.less</groupId>
     <artifactId>lesscss-maven-plugin</artifactId>
-    <version>1.7.0.1.2-SNAPSHOT</version>
+    <version>1.7.0.1.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
-    <name>Official LESS CSS Maven Plugin</name>
-    <description>Official LESS CSS Maven Plugin</description>
-    <url>http://github.com/marceloverdijk/lesscss-maven-plugin</url>
+    <name>Fork of official LESS CSS Maven Plugin</name>
+    <description>Fork of official LESS CSS Maven Plugin</description>
+    <url>http://github.com/nleva/lesscss-maven-plugin</url>
     
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -70,7 +70,7 @@
             <version>3.0</version>
         </dependency>
         <dependency>
-            <groupId>org.lesscss</groupId>
+            <groupId>ru.send-to.less</groupId>
             <artifactId>lesscss</artifactId>
             <version>1.7.0.1.1</version>
         </dependency>
@@ -170,15 +170,11 @@
         </developer>
     </developers>
     
-    <issueManagement>
-        <system>GitHub</system>
-        <url>http://github.com/marceloverdijk/lesscss-maven-plugin/issues</url>
-    </issueManagement>
     
     <scm>
-        <connection>scm:git:git@github.com:marceloverdijk/lesscss-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:marceloverdijk/lesscss-maven-plugin.git</developerConnection>
-        <url>http://github.com/marceloverdijk/lesscss-maven-plugin</url>
+        <connection>scm:git:git@github.com:nleva/lesscss-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:nleva/lesscss-maven-plugin.git</developerConnection>
+        <url>http://github.com/nleva/lesscss-maven-plugin</url>
     </scm>
     
     <prerequisites>
